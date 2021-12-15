@@ -9,6 +9,9 @@ body {
   margin: 0;
   background-size: cover;
 }
+::placeholder {
+  color: rgb(233, 231, 231);
+}
 .container {
   background: #fa5959;
   padding: 20px;
@@ -54,10 +57,11 @@ label {
   font-size: 25px;
   color: red;
   text-align: center;
+  font-family: "Courier Prime", monospace;
 }
 h5 {
   font-size: 13px;
-  margin-left: 20px;
+  margin-left: 21px;
 }
 .agree {
   color: white;
