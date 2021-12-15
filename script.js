@@ -55,9 +55,11 @@ function checkInputs() {
     token.style.borderWidth = "4px";
     token.style.borderColor = "green";
     promptInp.value = "";
-    console.log("Name:", usernameVal);
-    console.log("email:", emailVal);
-    console.log("token:", tokenVal);
+    // username.value = "";
+    // email.value = "";
+    // token.value = "";
+
+    alert("Your form has been received");
   }
   // } else if (tokenVal ==="") {
   //   username.style.borderColor = "green";
