@@ -1,13 +1,15 @@
 body {
-  background-image: url("../images/img.png");
+  background-image: url("./starter-code/images/img.png");
 
   font-family: "Courier Prime", monospace;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 50vh;
-  margin: 0;
+
   background-size: cover;
+  margin-bottom: 0px;
+  background-position-y: -200px;
 }
 ::placeholder {
   color: rgb(233, 231, 231);
